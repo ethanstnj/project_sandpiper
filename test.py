@@ -3,6 +3,9 @@
 # January 10, 2019
 
 #Ethan's Spotify user ID: 121928206
+#Client ID: b48e90e6824e436bae652287b14a8acd
+#Client Secret: d8f60260f81246af996157802642d616
+#Redirect URI: http://google.com/
 
 import os
 import sys
@@ -33,6 +36,17 @@ if token:
         print("%d %s" %(i, item['name']))
 else:
     print("Can't get token for", username)
+
+##########
+#Get User Input
+#-Get favorite genres
+#-ask for sentence to be turned into playlist
+
+#Parse out words
+
+#Search Words on Spotify
+
+#Save them to Playlist
 
 
 
